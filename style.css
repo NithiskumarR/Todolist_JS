@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(120deg,rgb(81, 81, 216),rgb(233, 82, 82));
+    color: white;
+    font-family: "Poppins",sans-serif;
+    min-height: 100px;
+}
+
+header{
+    font-size: x-large;
+}
+
+header , form {
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input, form button{
+    padding: 0.5rem;
+    font-size: 2rem;
+    background-color: white;
+    border: none;
+}
+
+form button{
+    color: rgb(202, 90, 90);
+    background: white;
+    cursor: pointer;
+    /* transition: all 0.3s ease; */
+}
+
+form button:hover{
+    color: white;
+    background: rgb(202, 90, 90);
+}
